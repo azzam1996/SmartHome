@@ -12,3 +12,6 @@ App showing UI for Smart Home Application, Design is taken from [here](https://w
 </p>
 
 # Demo
+
+https://user-images.githubusercontent.com/59395628/228230119-82bd8979-7008-49c0-90a7-20793f13bd5f.mp4
+
