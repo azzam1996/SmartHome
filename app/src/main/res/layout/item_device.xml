@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="141dp"
+    android:layout_height="199dp"
+    android:paddingBottom="20dp"
+    android:paddingHorizontal="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="121dp"
+        android:layout_height="179dp"
+        app:cardCornerRadius="36dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:background="@drawable/bg_card">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivBg"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:alpha="0.2"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_oval_with_stroke"
+                app:shapeAppearance="@style/Circular"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_living_room"
+                app:layout_constraintTop_toTopOf="@id/ivBg"
+                app:layout_constraintBottom_toBottomOf="@id/ivBg"
+                app:layout_constraintStart_toStartOf="@id/ivBg"
+                app:layout_constraintEnd_toEndOf="@id/ivBg"/>
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunito_semibold"
+                app:layout_constraintTop_toBottomOf="@id/ivBg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

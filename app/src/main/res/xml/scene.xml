@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/fanSelected"
+        motion:constraintSetStart="@+id/weatherSelected">
+    <OnClick
+        motion:clickAction="toggle"
+        motion:targetId="@+id/clSelected" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/weatherSelected">
+
+
+        <Constraint
+            android:id="@id/clSelected"
+            motion:layout_constraintStart_toStartOf="@id/clWeather"
+            motion:layout_constraintEnd_toEndOf="@id/clWeather"
+            motion:layout_constraintTop_toTopOf="@id/clWeather"
+            motion:layout_constraintBottom_toBottomOf="@id/clWeather" />
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/fanSelected">
+
+
+        <Constraint
+            android:id="@id/clSelected"
+            motion:layout_constraintStart_toStartOf="@id/clFan"
+            motion:layout_constraintEnd_toEndOf="@id/clFan"
+            motion:layout_constraintTop_toTopOf="@id/clFan"
+            motion:layout_constraintBottom_toBottomOf="@id/clFan" />
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/settingsSelected">
+
+
+        <Constraint
+            android:id="@id/clSelected"
+            motion:layout_constraintStart_toStartOf="@id/clSettings"
+            motion:layout_constraintEnd_toEndOf="@id/clSettings"
+            motion:layout_constraintTop_toTopOf="@id/clSettings"
+            motion:layout_constraintBottom_toBottomOf="@id/clSettings" />
+
+    </ConstraintSet>
+
+</MotionScene>

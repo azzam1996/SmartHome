@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false" android:drawable="@drawable/bg_card">
+        <shape android:shape="rectangle">
+            <padding android:top="2dp" android:bottom="2dp" android:left="2dp" android:right="2dp"/>
+        </shape>
+    </item>
+
+    <item android:state_checked="true"  android:drawable="@drawable/bg_card">
+        <shape android:shape="rectangle">
+            <padding android:top="2dp" android:bottom="2dp" android:left="2dp" android:right="2dp"/>
+        </shape>
+    </item>
+
+</selector>

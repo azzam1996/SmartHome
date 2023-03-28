@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TemperatureProgressBar">
+        <attr name="blurring_padding" format="dimension"/>
+        <attr name="progress_bar_stroke_width" format="dimension"/>
+        <attr name="outer_circle_radius" format="dimension"/>
+        <attr name="inner_circle_radius" format="dimension"/>
+    </declare-styleable>
+</resources>
