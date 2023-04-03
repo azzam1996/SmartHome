@@ -12,6 +12,7 @@
         android:textStyle="normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semibold"
         app:layout_constraintBottom_toTopOf="@id/tvDegree"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -21,6 +22,7 @@
         android:textSize="42sp"
         android:textColor="@color/white"
         android:textStyle="bold"
+        android:fontFamily="@font/nunito_bold"
         android:includeFontPadding="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,6 +37,7 @@
         android:textSize="17sp"
         android:textColor="@color/white"
         android:textStyle="normal"
+        android:fontFamily="@font/nunito_semibold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/tvDegree"
